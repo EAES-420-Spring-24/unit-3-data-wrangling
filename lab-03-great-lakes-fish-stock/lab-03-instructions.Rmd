@@ -58,7 +58,7 @@ The dataset for this assignment can be found as a CSV (comma separated values) f
 You can read it in using the following.
 
 ```{r load-data, message = FALSE}
-fish_stock <- read_csv("data/great-lakes-fish-stock.csv")
+fish_stock <- read_csv("../data/great-lakes-fish-stock.csv")
 ```
 
 The variable descriptions are as follows:
