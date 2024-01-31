@@ -7,12 +7,12 @@ output: html_document
 
 ### Load packages and data
 
-```{r load-packages, message=FALSE}
+```{r load-packages, message = FALSE}
 library(tidyverse) 
 ```
 
-```{r load-data, message=FALSE}
-fish_stock <- read_csv("data/great-lakes-fish-stock.csv")
+```{r load-data, warning = FALSE}
+fish_stock <- read_csv("../data/great-lakes-fish-stock.csv")
 ```
 
 ## Exercises
